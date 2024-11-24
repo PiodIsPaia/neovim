@@ -32,7 +32,7 @@
   <img src="./assets/toggle-term.png" alt="Toggle Term" />
 </details>
 
-### 6. Personalização de Cores
+### 6. Color Highlights
 <details>
   <summary>Clique para ver as color highlights</summary>
   <img src="./assets/color.png" alt="Colors" />
