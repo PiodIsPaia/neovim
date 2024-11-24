@@ -1,0 +1,13 @@
+vim.o.number = true             -- Mostrar números de linha
+vim.o.relativenumber = false    -- Não usar números relativos
+vim.o.mouse = 'a'               -- Habilitar o uso do mouse
+vim.o.clipboard = 'unnamedplus' -- Usar o clipboard do sistema (opcional)
+vim.o.title = true              -- Exibir o título do terminal
+vim.o.encoding = 'utf-8'        -- Definir a codificação para UTF-8
+vim.o.termguicolors = true      -- Habilitar cores no terminal
+vim.o.background = 'dark'       -- Tema para terminais escuros
+vim.o.tabstop = 2               -- Definir o tamanho do tabstop
+vim.o.shiftwidth = 2            -- Definir o tamanho do shiftwidth
+vim.o.expandtab = true          -- Usar espaços em vez de tabulação
+vim.o.softtabstop = 2           -- Configurar o softtabstop
+vim.o.guicursor = ''            -- Mantém o cursor padrão
