@@ -11,7 +11,9 @@ require('config.nvimtree')   -- NvimTree para navegação de arquivos
 require('config.toggleterm') -- ToggleTerm para terminal integrado
 require('config.lualine')    -- Lualine para barra de status
 require('config.barbar')     -- Barbar para abas de buffer
-require('config.colors')
+require('config.colors')     -- Destaca cores
+require('config.noice')      -- Um plugin para aprimorar a interface de mensagens do Neovim, melhorando a exibição de mensagens, comandos e notificações
+require('config.fidget')     -- Exibe animações de “fidget spinners” para indicar o status das tarefas em segundo plano do LSP
 
 -- Configurações específicas de LSP e autocompletar
 require('config.lsp')        -- Configuração do LSP

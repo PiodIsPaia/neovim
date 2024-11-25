@@ -21,7 +21,7 @@ return require('packer').startup(function(use)
   -- 3. Busca e Navegação
   -- ========================================
   use {
-    'nvim-telescope/telescope.nvim',   -- Busca e navegação
+    'nvim-telescope/telescope.nvim',   
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use "lukas-reineke/indent-blankline.nvim"
@@ -29,10 +29,15 @@ return require('packer').startup(function(use)
   -- ========================================
   -- 4. Autocompletar e LSP
   -- ========================================
-  use 'nvim-treesitter/nvim-treesitter' -- Treesitter para realce de sintaxe
-  use 'hrsh7th/nvim-cmp'               -- Autocompletar
-  use 'hrsh7th/cmp-nvim-lsp'           -- Fontes de autocompletar do LSP
-  use 'neovim/nvim-lspconfig'          -- Configuração do LSP
+  use 'nvim-treesitter/nvim-treesitter'
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use "j-hui/fidget.nvim"
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
 
   -- ========================================
   -- 5. Explorador de Arquivos
@@ -97,11 +102,11 @@ return require('packer').startup(function(use)
   use 'brenoprata10/nvim-highlight-colors'
 
   -- ========================================
-  -- 15. MasonLSP
+  -- 15. Noice
   -- ========================================
   use {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
+    "folke/noice.nvim",
+    "MunifTanjim/nui.nvim",
+    "rcarriga/nvim-notify"
   }
 end)
