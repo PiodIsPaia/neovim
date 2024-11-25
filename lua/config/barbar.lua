@@ -6,7 +6,6 @@ require'barbar'.setup {
   tabpages = true,
   clickable = true,
   focus_on_close = 'left',
-  hide = {extensions = true, inactive = true},
   highlight_alternate = false,
   highlight_inactive_file_icons = false,
   highlight_visible = true,
