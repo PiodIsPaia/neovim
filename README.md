@@ -20,7 +20,7 @@
     <img src="./assets/editor.png" alt="Editor" />
 </details>
 
-### 4. Suporte a Autocomplete (C, Go e Python, JS/TS)
+### 4. Suporte a Autocomplete (C, Go, Python e JS/TS)
 <details>
   <summary>Clique para ver o Autocomplete</summary>
     <img src="./assets/autocomplete.png" alt="Autocomplete" />
