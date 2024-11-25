@@ -1,4 +1,7 @@
 # Neovim
+Este é um setup customizado do Neovim com funcionalidades modernas para melhorar sua produtividade ao editar código. Agora com um script de instalação automatizado, você pode configurar tudo facilmente.
+
+Requisitos: Neovim 0.9.5 ou supeior
 
 ## Funcionalidades
 
