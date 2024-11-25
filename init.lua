@@ -25,7 +25,7 @@ require('config.neocord')    -- Configuração de bot de Discord
 require('config.lbl')        -- Configuração de indent-blankline
 
 -- Carregar a Dashboard
-require('dashboard')         -- Carregar Dashboard
+require('user.dashboard')         -- Carregar Dashboard
 
 -- Carregar configurações específicas do usuário
 require('user.panda')        -- Configuração personalizada do panda
