@@ -20,7 +20,8 @@
     <img src="./assets/editor.png" alt="Editor" />
 </details>
 
-### 4. Suporte a Autocomplete (C, Go, Python e JS/TS)
+### 4. Suporte a Autocomplete (LSP e cmp_nvim_lsp)
+Usa Mason para instalação fácil de servidores LSP e integração com cmp_nvim_lsp para sugestões contextuais.
 <details>
   <summary>Clique para ver o Autocomplete</summary>
     <img src="./assets/autocomplete.png" alt="Autocomplete" />

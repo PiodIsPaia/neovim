@@ -95,4 +95,13 @@ return require('packer').startup(function(use)
   -- 14. highlight Colors
   -- ========================================
   use 'brenoprata10/nvim-highlight-colors'
+
+  -- ========================================
+  -- 15. MasonLSP
+  -- ========================================
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
 end)
