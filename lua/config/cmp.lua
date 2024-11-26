@@ -1,4 +1,5 @@
 local cmp = require('cmp')
+
 cmp.setup({
   snippet = {
     expand = function(args)
@@ -11,14 +12,14 @@ cmp.setup({
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<C-e>'] = cmp.mapping.abort(),
     ['<CR>'] = cmp.mapping.confirm({
-      select = true,  
-      behavior = cmp.ConfirmBehavior.Replace,  
+      select = true,
+      behavior = cmp.ConfirmBehavior.Replace,
     }),
   }),
   sources = cmp.config.sources({
+    { name = 'path' },
     { name = 'nvim_lsp' },
     { name = 'buffer' },
-    { name = 'path' },
   }),
   completion = {
     win_width = 40,

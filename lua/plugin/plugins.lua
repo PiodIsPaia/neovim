@@ -7,83 +7,86 @@ return require('packer').startup(function(use)
   -- ========================================
   -- 1. Dependências Básicas
   -- ========================================
-  use 'nvim-lua/plenary.nvim'          -- Funções utilitárias
-  use 'nvim-tree/nvim-web-devicons'    -- Ícones para o NvimTree e outros plugins
+  use 'nvim-lua/plenary.nvim'       -- Funções utilitárias
+  use 'nvim-tree/nvim-web-devicons' -- Ícones para o NvimTree e outros plugins
+  use "j-hui/fidget.nvim"
 
   -- ========================================
   -- 2. Temas
   -- ========================================
   --use 'gruvbox-community/gruvbox'      -- Tema Gruvbox
   --use { "catppuccin/nvim", as = "catppuccin" } -- Tema Catppuccin
-  use 'folke/tokyonight.nvim'  -- Tema TokyoNight
+  use 'folke/tokyonight.nvim' -- Tema TokyoNight
 
   -- ========================================
   -- 3. Busca e Navegação
   -- ========================================
   use {
-    'nvim-telescope/telescope.nvim',   
-    requires = { {'nvim-lua/plenary.nvim'} }
+    'nvim-telescope/telescope.nvim',
+    requires = { { 'nvim-lua/plenary.nvim' } }
   }
   use "lukas-reineke/indent-blankline.nvim"
 
   -- ========================================
   -- 4. Autocompletar e LSP
   -- ========================================
-  use 'nvim-treesitter/nvim-treesitter'
-  use 'hrsh7th/nvim-cmp'
-  use {'hrsh7th/vim-vsnip'}
-  use {'hrsh7th/cmp-vsnip'}
-  use 'hrsh7th/cmp-nvim-lsp'
+  use 'nvim-treesitter/nvim-treesitter'          -- Realce de sintaxe avançado
+  use 'hrsh7th/nvim-cmp'                         -- Autocompletar
+  use { 'hrsh7th/vim-vsnip' }                    -- Snippets (vsnip)
+  use { 'hrsh7th/cmp-vsnip' }                    -- Autocompletar para snippets
+  use 'hrsh7th/cmp-nvim-lsp'                     -- Autocompletar para LSP
+  use 'hrsh7th/cmp-buffer'                       -- Autocompletar para o buffer atual
+  use 'hrsh7th/cmp-path'                         -- Autocompletar para caminhos de arquivos
   use {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
+    "williamboman/mason.nvim",                   -- Gerenciador de LSP
+    "williamboman/mason-lspconfig.nvim",         -- LSP para integração fácil
+    "neovim/nvim-lspconfig",                     -- LSP básico
   }
 
   -- ========================================
   -- 5. Explorador de Arquivos
   -- ========================================
-  use 'nvim-tree/nvim-tree.lua'        -- Explorador de arquivos
+  use 'nvim-tree/nvim-tree.lua' -- Explorador de arquivos
 
   -- ========================================
   -- 6. Terminal Integrado
   -- ========================================
-  use 'akinsho/toggleterm.nvim'        -- Terminal integrado
+  use 'akinsho/toggleterm.nvim' -- Terminal integrado
 
   -- ========================================
   -- 7. Status Line
   -- ========================================
   use {
-    'nvim-lualine/lualine.nvim',       -- Status line
-    requires = { 'nvim-tree/nvim-web-devicons', opt = true }  -- Ícones opcionais para o lualine
+    'nvim-lualine/lualine.nvim',                             -- Status line
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true } -- Ícones opcionais para o lualine
   }
 
   -- ========================================
   -- 8. Git
   -- ========================================
-  use 'lewis6991/gitsigns.nvim'        -- Status de git (adicionar, modificar, deletar)
+  use 'lewis6991/gitsigns.nvim' -- Status de git (adicionar, modificar, deletar)
 
   -- ========================================
   -- 9. Barra de Buffers
   -- ========================================
-  use 'romgrk/barbar.nvim'             -- Gerenciador de buffers
+  use 'romgrk/barbar.nvim' -- Gerenciador de buffers
 
   -- ========================================
   -- 10. Discord RPC
   -- ========================================
-  use 'IogaMaster/neocord'             -- RPC para Discord
+  use 'IogaMaster/neocord' -- RPC para Discord
 
   -- ========================================
   -- 11. Dashboard
   -- ========================================
-  use 'glepnir/dashboard-nvim'         -- Dashboard inicial
+  use 'glepnir/dashboard-nvim' -- Dashboard inicial
 
   -- ========================================
   -- 12. Todo Comments
   -- ========================================
   use {
-    "folke/todo-comments.nvim",        -- Plugin para comentários de TODO
-    dependencies = { "nvim-lua/plenary.nvim" },  -- Dependência do plenary
+    "folke/todo-comments.nvim",                 -- Plugin para comentários de TODO
+    dependencies = { "nvim-lua/plenary.nvim" }, -- Dependência do plenary
   }
 
   -- ========================================
@@ -93,12 +96,12 @@ return require('packer').startup(function(use)
     "windwp/nvim-autopairs",
     event = "InsertEnter",
     config = function()
-        require("nvim-autopairs").setup {}
+      require("nvim-autopairs").setup {}
     end
   }
 
   -- ========================================
-  -- 14. highlight Colors
+  -- 14. Highlight Colors
   -- ========================================
   use 'brenoprata10/nvim-highlight-colors'
 
