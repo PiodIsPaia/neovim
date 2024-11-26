@@ -24,7 +24,7 @@ require('dashboard').setup {
     shortcut = {
       { desc = '  Find File', group = 'Keyword', key = 'f', action = ':Telescope find_files cwd=' },
       { desc = '󰱼 Search', group = 'String', key = 's', action = ':Telescope live_grep' },
-      { desc = '󰈆 Quit', group = 'Keyword', key = 'q', action = ':q'},
+      { desc = '󰈆 Quit', group = 'Keyword', key = 'q', action = ':q' },
     },
 
     project = {

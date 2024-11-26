@@ -16,7 +16,8 @@ return require('packer').startup(function(use)
   -- ========================================
   --use 'gruvbox-community/gruvbox'      -- Tema Gruvbox
   --use { "catppuccin/nvim", as = "catppuccin" } -- Tema Catppuccin
-  use 'folke/tokyonight.nvim' -- Tema TokyoNight
+  --use 'folke/tokyonight.nvim' -- Tema TokyoNight
+  use "rebelot/kanagawa.nvim"  -- Tema Kanagawa
 
   -- ========================================
   -- 3. Busca e Navegação
@@ -40,7 +41,7 @@ return require('packer').startup(function(use)
   use {
     "williamboman/mason.nvim",                   -- Gerenciador de LSP
     "williamboman/mason-lspconfig.nvim",         -- LSP para integração fácil
-    "neovim/nvim-lspconfig",                     -- LSP básico
+    "neovim/nvim-lspconfig",                    -- LSP básico
   }
 
   -- ========================================
