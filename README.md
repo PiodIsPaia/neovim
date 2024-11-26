@@ -1,59 +1,49 @@
 # <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" width="50" /> **Neovim Customizado**
 
-Este é um **setup customizado do Neovim** com funcionalidades modernas para melhorar sua produtividade ao codar. Agora, com um **script de instalação automatizado**, você pode configurar tudo facilmente com apenas alguns comandos.
+Este é um **setup customizado do Neovim**, projetado para oferecer uma experiência moderna e produtiva. Ele vem com um **script de instalação automatizado**, permitindo que você configure tudo com facilidade.
 
 ---
 
 ### 🛠️ **Requisitos**
 
-- Neovim 0.9.5 ou superior.
+- **Neovim** 0.9.5 ou superior.
+- **Git**
 
 ---
 
 ### 🚀 **Funcionalidades**
 
-#### 1. **Dashboard**
-<details>
-  <summary>Clique para ver a tela inicial (Dashboard)</summary>
-  <img src="./assets/dashboard.png" alt="Dashboard" width="100%" />
-</details>
+Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluindo:
 
-#### 2. **Gerenciamento de Tarefas (Todo Comments)**
-<details>
-  <summary>Clique para ver a integração do Todo Comments</summary>
-  <img src="./assets/todo.png" alt="Todo" width="100%" />
-</details>
-
-#### 3. **Editor de Código**
-<details>
-  <summary>Clique para ver o Editor de Código</summary>
-  <img src="./assets/editor.png" alt="Editor" width="100%" />
-</details>
-
-#### 4. **Suporte a Autocomplete (LSP e cmp_nvim_lsp)**
-Usa **Mason** para instalação fácil de servidores LSP e integração com **cmp_nvim_lsp** para sugestões contextuais.
+1. **Dashboard**: Uma tela inicial interativa.
+2. **Gerenciamento de Tarefas**: Integração com `Todo Comments`.
+3. **Editor de Código**: Completo com realce de sintaxe, snippets e muito mais.
+4. **Suporte a Autocomplete**: Usando `Mason` e `cmp_nvim_lsp` para sugestões inteligentes.
+5. **Terminal Integrado**: Com `ToggleTerm` para facilitar o uso.
+6. **Realce de Cores**: Configuração completa para color highlights.
+7. **Auto formatação**: Ao salvar um arquivo ele se auto formata.
 
 <details>
-  <summary>Clique para ver o Autocomplete</summary>
-  <img src="./assets/autocomplete.png" alt="Autocomplete" width="100%" />
+  <summary>Clique para expandir e ver as imagens de demonstração 📸</summary>
+
+  - **Dashboard**
+    ![Dashboard](./assets/dashboard.png)
+
+  - **Gerenciamento de Tarefas**
+    ![Todo Comments](./assets/todo.png)
+
+  - **Editor de Código**
+    ![Editor de Código](./assets/editor.png)
+
+  - **Autocomplete**
+    ![Autocomplete](./assets/autocomplete.png)
+
+  - **Terminal Integrado**
+    ![Terminal Integrado](./assets/toggle-term.png)
+
+  - **Color Highlights**
+    ![Realce de Cores](./assets/colors.png)
+
 </details>
-
-#### 5. **Terminal Integrado (ToggleTerm)**
-<details>
-  <summary>Clique para ver o Terminal Integrado</summary>
-  <img src="./assets/toggle-term.png" alt="Toggle Term" width="100%" />
-</details>
-
-#### 6. **Color Highlights**
-<details>
-  <summary>Clique para ver as color highlights</summary>
-  <img src="./assets/color.png" alt="Colors" width="100%" />
-</details>
-
----
-
-### 🔧 **Instalação Automática**
-
-Agora, você pode configurar o seu ambiente de desenvolvimento de forma rápida e simples com o script de instalação automatizado. Basta rodá-lo no terminal e o Neovim será configurado com todas as funcionalidades que você precisa!
 
 ---

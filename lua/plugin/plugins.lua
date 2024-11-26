@@ -14,9 +14,9 @@ return require('packer').startup(function(use)
   -- ========================================
   -- 2. Temas
   -- ========================================
-  --use 'gruvbox-community/gruvbox'      -- Tema Gruvbox
-  --use { "catppuccin/nvim", as = "catppuccin" } -- Tema Catppuccin
-  --use 'folke/tokyonight.nvim' -- Tema TokyoNight
+  use 'gruvbox-community/gruvbox'      -- Tema Gruvbox
+  use { "catppuccin/nvim", as = "catppuccin" } -- Tema Catppuccin
+  use 'folke/tokyonight.nvim' -- Tema TokyoNight
   use "rebelot/kanagawa.nvim"  -- Tema Kanagawa
 
   -- ========================================
