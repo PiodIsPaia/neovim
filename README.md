@@ -23,6 +23,10 @@ Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluind
 6. **Realce de Cores**: Configuração completa para color highlights.
 7. **Auto formatação**: Ao salvar um arquivo ele se auto formata.
 
+---
+
+### 📸 **Demonstração Visual**
+
 <details>
   <summary>Clique para expandir e ver as imagens de demonstração 📸</summary>
 
@@ -47,3 +51,33 @@ Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluind
 </details>
 
 ---
+
+### ⌨️ **Atalhos do Teclado (Keymaps)**
+
+<details>
+  <summary>Clique para expandir e ver os atalhos configurados</summary>
+
+  - **Leader**: Barra de espaço (`<Space>`)
+  - **C**: Ctrl
+  - **ToggleTerm**: 
+    - `<C-t>`: Alternar terminal integrado.
+  - **NvimTree**: 
+    - `<Leader>e`: Alternar explorador de arquivos.
+  - **Telescope**:
+    - `<Leader>f`: Buscar arquivos.
+    - `<Leader>g`: Buscar texto no projeto.
+  - **Navegação entre janelas**:
+    - `<C-h>`: Ir para a janela à esquerda.
+    - `<C-l>`: Ir para a janela à direita.
+    - `<C-j>`: Ir para a janela de baixo.
+    - `<C-k>`: Ir para a janela de cima.
+  - **Comandos básicos**:
+    - `<Leader>w`: Salvar arquivo.
+    - `<Leader>q`: Fechar janela.
+  - **Recarregar arquivo atual**:
+    - `<Leader>r`: Recarregar arquivo.
+  - **Desfazer ações**:
+    - `<C-z>`: Desfazer no modo normal.
+    - `<C-z>`: Desfazer no modo insert.
+
+</details>
