@@ -16,6 +16,7 @@ require('plugins.nvimtree')    -- NvimTree para navegação de arquivos
 require('plugins.toggleterm')  -- ToggleTerm para terminal integrado
 require('plugins.lualine')     -- Lualine para barra de status
 require('plugins.barbar')      -- Barbar para abas de buffer
+require('plugins.image')       -- ImageMagick
 
 -- Plugins de aprimoramento de UX
 require('plugins.colors')      -- Destaca cores
