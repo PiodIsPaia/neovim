@@ -24,6 +24,7 @@ require('plugins.fidget')      -- Exibe status das tarefas em segundo plano do L
 
 -- Configurações específicas de LSP e autocompletar
 require('plugins.cmp')         -- LSP e autocompletamento
+require('plugins.autopairs') -- AutoPairs
 
 -- Plugins específicos de funcionalidades
 require('plugins.todo')        -- Configuração de TODOs
