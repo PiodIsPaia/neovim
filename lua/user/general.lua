@@ -10,4 +10,4 @@ vim.o.tabstop = 2               -- Definir o tamanho do tabstop
 vim.o.shiftwidth = 2            -- Definir o tamanho do shiftwidth
 vim.o.expandtab = true          -- Usar espaços em vez de tabulação
 vim.o.softtabstop = 2           -- Configurar o softtabstop
-vim.o.guicursor = ''            -- Mantém o cursor padrão
+vim.o.guicursor = ""            -- Mantém o cursor padrão

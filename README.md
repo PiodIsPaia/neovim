@@ -8,6 +8,8 @@ Este é um **setup customizado do Neovim**, projetado para oferecer uma experiê
 
 - **Neovim** 0.9.5 ou superior.
 - **Git**
+- **ImageMagic** magick_cli e magick_rock
+- **JetBrainsMono Nerd Font** Recomendado
 
 ---
 
@@ -22,6 +24,7 @@ Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluind
 5. **Terminal Integrado**: Com `ToggleTerm` para facilitar o uso.
 6. **Realce de Cores**: Configuração completa para color highlights.
 7. **Auto formatação**: Ao salvar um arquivo ele se auto formata.
+8. **Visualização de imagens**: Caso você use o Kitty como terminal, é possivel visualizar imagens dentro do Neovim.
 
 ---
 
@@ -48,6 +51,8 @@ Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluind
   - **Color Highlights**
     ![Realce de Cores](./assets/colors.png)
 
+  - **Visualização de Imagens**
+    ![Visualização de Imagens](./assets/image.png)
 </details>
 
 ---
@@ -80,4 +85,8 @@ Este setup oferece uma ampla gama de funcionalidades modernas e úteis, incluind
     - `<C-z>`: Desfazer no modo normal.
     - `<C-z>`: Desfazer no modo insert.
 
+  - **Navegação entre buffers**:
+    - `<Tab>`: Vai para o próximo buffer.
+    - `<S-Tab>`: Vai para o buffer anterior.
+    - `<C-q>`: Fecha o buffer atual.
 </details>

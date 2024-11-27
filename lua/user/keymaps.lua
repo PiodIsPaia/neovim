@@ -5,7 +5,6 @@ local opts = { noremap = true, silent = true }
 -- Definir líder como barra de espaço
 vim.g.mapleader = ' '
 
-
 -- ToggleTerm (terminal integrado)
 map('n', '<C-t>', ':ToggleTerm<CR>', opts)
 
@@ -34,3 +33,12 @@ map('n', '<C-z>', 'u', opts)
 
 -- Ctrl+z para desfazer no modo insert
 vim.api.nvim_set_keymap('i', '<C-z>', '<C-o>u', { noremap = true, silent = true })
+
+-- Mapeamento para navegar para o buffer anterior
+map('n', '<S-Tab>', '<Cmd>BufferPrevious<CR>', opts)
+
+-- Mapeamento para navegar para o próximo buffer
+map('n', '<Tab>', '<Cmd>BufferNext<CR>', opts)
+
+-- Mapeamento para fechar o buffer atual
+map('n', '<C-q>', '<Cmd>BufferClose<CR>', opts)

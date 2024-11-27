@@ -1,14 +1,4 @@
-local highlight = {
-  "RainbowRed",
-  "RainbowYellow",
-  "RainbowBlue",
-  "RainbowOrange",
-  "RainbowGreen",
-  "RainbowViolet",
-  "RainbowCyan",
-}
-
-local hooks = require "ibl.hooks"
+local hooks = require("ibl.hooks")
 
 hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
   vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#E06C75" })
@@ -20,10 +10,26 @@ hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
   vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
 end)
 
-require("ibl").setup {
-  indent = { highlight = highlight },
-  exclude = {
-    filetypes = { "dashboard" },
-    buftypes = { "nofile" },
-  },
+return {
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    ---@module "ibl"
+    opts = {
+      exclude = {
+        filetypes = { "dashboard", "NvimTree", "fugitive", "help" },
+      },
+      indent = {
+        highlight = {
+          "RainbowRed",
+          "RainbowYellow",
+          "RainbowBlue",
+          "RainbowOrange",
+          "RainbowGreen",
+          "RainbowViolet",
+          "RainbowCyan",
+        }
+      },
+    },
+  }
 }
